@@ -13,27 +13,138 @@
         <h4><span class="iconfont icon-liuyan"></span> 说点什么吧</h4>
     </div>
     <div class="comments-content">
-        <textarea class="txt-content" placeholder="评论越屌，BUG越少！"></textarea>
+        <textarea class="txt-content" id="txtMsg" placeholder="评论越屌，BUG越少！"></textarea>
         <span class="input-info">0 / 240</span>
     </div>
     <div class="comments-footer">
         <div class="u-face">
-            <span><i class="iconfont icon-biaoqing"></i> 表情</span>
+            <span class="face-show"><i class="iconfont icon-biaoqing"></i> 表情</span>
+            <div class="face-icons">
+                <ul>
+                    <li>
+                        <span><img src="images/icon/1@2x.png"></span>
+                        <span><img src="images/icon/2@2x.png"></span>
+                        <span><img src="images/icon/3@2x.png"></span>
+                        <span><img src="images/icon/4@2x.png"></span>
+                        <span><img src="images/icon/5@2x.png"></span>
+                        <span><img src="images/icon/6@2x.png"></span>
+                        <span><img src="images/icon/7@2x.png"></span>
+                        <span><img src="images/icon/8@2x.png"></span>
+                        <span><img src="images/icon/9@2x.png"></span>
+                        <span><img src="images/icon/10@2x.png"></span>
+                        <span><img src="images/icon/11@2x.png"></span>
+                        <span><img src="images/icon/12@2x.png"></span>
+                        <span><img src="images/icon/13@2x.png"></span>
+                        <span><img src="images/icon/14@2x.png"></span>
+                        <span><img src="images/icon/15@2x.png"></span>
+                        <span><img src="images/icon/16@2x.png"></span>
+                        <span><img src="images/icon/17@2x.png"></span>
+                        <span><img src="images/icon/18@2x.png"></span>
+                        <span><img src="images/icon/19@2x.png"></span>
+                        <span><img src="images/icon/20@2x.png"></span>
+                        <span><img src="images/icon/21@2x.png"></span>
+                        <span><img src="images/icon/22@2x.png"></span>
+                        <span><img src="images/icon/24@2x.png"></span>
+                        <span><img src="images/icon/25@2x.png"></span>
+                        <span><img src="images/icon/26@2x.png"></span>
+                        <span><img src="images/icon/27@2x.png"></span>
+                        <span><img src="images/icon/28@2x.png"></span>
+                        <span><img src="images/icon/29@2x.png"></span>
+                        <span><img src="images/icon/30@2x.png"></span>
+                        <span><img src="images/icon/31@2x.png"></span>
+                        <span><img src="images/icon/32@2x.png"></span>
+                        <span><img src="images/icon/33@2x.png"></span>
+                        <span><img src="images/icon/34@2x.png"></span>
+                        <span><img src="images/icon/35@2x.png"></span>
+                        <span><img src="images/icon/36@2x.png"></span>
+                        <span><img src="images/icon/37@2x.png"></span>
+                        <span><img src="images/icon/38@2x.png"></span>
+                        <span><img src="images/icon/43@2x.png"></span>
+                        <span><img src="images/icon/46@2x.png"></span>
+                        <span><img src="images/icon/50@2x.png"></span>
+                    </li>
+                    <li>
+                        <span><img src="images/icon/51@2x.png"></span>
+                        <span><img src="images/icon/52@2x.png"></span>
+                        <span><img src="images/icon/53@2x.png"></span>
+                        <span><img src="images/icon/54@2x.png"></span>
+                        <span><img src="images/icon/55@2x.png"></span>
+                        <span><img src="images/icon/59@2x.png"></span>
+                        <span><img src="images/icon/60@2x.png"></span>
+                        <span><img src="images/icon/61@2x.png"></span>
+                        <span><img src="images/icon/62@2x.png"></span>
+                        <span><img src="images/icon/66@2x.png"></span>
+                        <span><img src="images/icon/67@2x.png"></span>
+                        <span><img src="images/icon/68@2x.png"></span>
+                        <span><img src="images/icon/69@2x.png"></span>
+                        <span><img src="images/icon/70@2x.png"></span>
+                        <span><img src="images/icon/71@2x.png"></span>
+                        <span><img src="images/icon/72@2x.png"></span>
+                        <span><img src="images/icon/73@2x.png"></span>
+                        <span><img src="images/icon/74@2x.png"></span>
+                        <span><img src="images/icon/75@2x.png"></span>
+                        <span><img src="images/icon/76@2x.png"></span>
+                        <span><img src="images/icon/77@2x.png"></span>
+                        <span><img src="images/icon/78@2x.png"></span>
+                        <span><img src="images/icon/79@2x.png"></span>
+                        <span><img src="images/icon/80@2x.png"></span>
+                        <span><img src="images/icon/81@2x.png"></span>
+                        <span><img src="images/icon/82@2x.png"></span>
+                        <span><img src="images/icon/88@2x.png"></span>
+                        <span><img src="images/icon/89@2x.png"></span>
+                        <span><img src="images/icon/90@2x.png"></span>
+                        <span><img src="images/icon/91@2x.png"></span>
+                        <span><img src="images/icon/92@2x.png"></span>
+                        <span><img src="images/icon/93@2x.png"></span>
+                        <span><img src="images/icon/94@2x.png"></span>
+                        <span><img src="images/icon/114@2x.png"></span>
+                    </li>
+                </ul>
+                <div class="face-page">
+                    <i></i><i></i>
+                </div>
+            </div>
         </div>
         <div class="user-input">
             <input type="text" class="txt-comment" placeholder="昵称">
             <input type="text" class="txt-comment" placeholder="邮箱">
             <input type="text" class="txt-comment" placeholder="网址">
-            <input type="submit" value="发布" class="btn-publish">
+            <input type="button" value="发布" class="btn-publish">
         </div>
     </div>
 </div>
 <div class="comments-list">
-    <div class="single-comments pl"></div>
-    <div class="single-comments pr"></div>
-    <div class="single-comments pl"></div>
-    <div class="single-comments pr"></div>
+    <div class="single-comments pl">
+        <div class="msg-head-pic"><img src="images/default-face.jpg" width="50" height="50"></div>
+        <dl class="msg-content">
+            <dt><span>2016-11-25 14:59</span><a href="#">Tean</a></dt>
+            <dd>多谢建议，考虑下怎么把滚屏信息和历史纪录结合起来，3Q！</dd>
+        </dl>
+    </div>
+    <div class="single-comments pr">
+        <div class="msg-head-pic"><img src="http://tva2.sinaimg.cn/crop.0.0.512.512.180/0061ILAvjw8esx5joy066j30e80e8wfa.jpg" width="50" height="50"></div>
+        <dl class="msg-content">
+            <dt><span>2016-11-25 14:59</span><a href="#">Mofei</a></dt>
+            <dd>站长你好，今天知乎偶然看到本站，就过来看看。感觉做的挺不错的、文章写的也很好、最后提个小小的建议，ajax界面间切换如果能加上缓存就更好啦，不然每次返回一下都要从头开始翻</dd>
+        </dl>
+    </div>
+    <div class="single-comments pl">
+        <div class="msg-head-pic"><img src="http://tva3.sinaimg.cn/crop.0.0.200.200.180/005N8ofpjw8f4shrb2jugj305k05k0sp.jpg" width="50" height="50"></div>
+        <dl class="msg-content">
+            <dt><span>2016-11-25 14:59</span><a href="#">日不落帝国</a></dt>
+            <dd>站长你好，今天知乎偶然看到本站，就过来看看。感觉做的挺不错的、文章写的也很好、最后提个小小的建议，ajax界面间切换如果能加上缓存就更好啦，不然每次返回一下都要从头开始翻站长你好，今天知乎偶然看到本站，就过来看看。感觉做的挺不错的、文章写的也很好、最后提个小小的建议，ajax界面间切换如果能加上缓存就更好啦，不然每次返回一下都要从头开始翻站长你好，今天知乎偶然看到本站，就过来看看。感觉做的挺不错的、文章写的也很好、最后提个小小的建议，ajax界面间切换如果能加上缓存就更好啦。</dd>
+        </dl>
+    </div>
+    <div class="single-comments pr">
+        <div class="msg-head-pic"><img src="http://tva4.sinaimg.cn/crop.0.0.180.180.180/67dd74e0jw1e8qgp5bmzyj2050050aa8.jpg" width="50" height="50"></div>
+        <dl class="msg-content">
+            <dt><span>2016-11-25 14:59</span><a href="#">我的名字要很长</a></dt>
+            <dd>博主，今天无意中发现了您的博客，感觉非常漂亮，能否给个配置教程呢？我看您github里面写的也看的不是很懂</dd>
+        </dl>
+    </div>
 </div>
 
+<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/comments.js"></script>
 </body>
 </html>
