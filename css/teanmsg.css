@@ -1,0 +1,19 @@
+* {margin: 0; padding:0; box-sizing: border-box;}
+
+body {background: #eef1eb; font-family: Arial, 'Microsoft YaHei'; }
+
+.comments {width:1260px; margin: 30px auto 0; background: #fff; padding: 10px; font-size: 14px;}
+
+.comments input, .comments textarea {font-family: Arial, 'Microsoft YaHei'; outline:none;}
+
+.comments-content {position: relative}
+.txt-content {width:100%; height:120px; border:1px solid #e8e9e7; resize: none; padding: 10px;  line-height: 20px;}
+.input-info {position: absolute; right:10px; bottom: 10px; color:#ccc; font:12px Arial}
+
+.comments-footer {overflow: auto; color:#aaa; padding: 10px 0 0}
+.u-face {float: left}
+.u-face span {cursor: pointer}
+.user-input {float: right}
+.txt-comment {width:180px; height:34px; border:1px solid #e8e9e7; padding: 0 5px; margin-left: 10px;}
+.btn-publish {background: #70ca10; width: 90px; height: 34px; color:#fff; border: 0 none; cursor: pointer; margin-left: 10px;}
+.btn-publish:hover {opacity: .8}
